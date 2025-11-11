@@ -23,7 +23,7 @@ public class FitAndFollowBackground2D : MonoBehaviour
     {
         if (!targetCamera) return;
         // Keep background locked to camera center (like a wallpaper)
-        transform.position = new Vector3(targetCamera.transform.position.x,targetCamera.transform.position.y,0f);
+        transform.position = new Vector3(targetCamera.transform.position.x, targetCamera.transform.position.y, 0f);
     }
 
     void FitToCameraView()

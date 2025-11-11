@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraRotator2D : MonoBehaviour
 {
-  // Keys to rotate 90° clockwise / counter-clockwise
+    // Keys to rotate 90° clockwise / counter-clockwise
     [SerializeField] KeyCode rotateCW = KeyCode.E;
     [SerializeField] KeyCode rotateCCW = KeyCode.Q;
 

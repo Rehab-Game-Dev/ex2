@@ -19,8 +19,8 @@ public class CameraZoom2D : MonoBehaviour
     {
         // Hold Up/Down to zoom in/out
         float input = 0f;
-        if (Input.GetKey(KeyCode.I))   input = -1f; // zoom in
-        if (Input.GetKey(KeyCode.O)) input =  1f; // zoom out
+        if (Input.GetKey(KeyCode.I)) input = -1f; // zoom in
+        if (Input.GetKey(KeyCode.O)) input = 1f;  // zoom out
 
         if (Mathf.Abs(input) > 0f)
         {
